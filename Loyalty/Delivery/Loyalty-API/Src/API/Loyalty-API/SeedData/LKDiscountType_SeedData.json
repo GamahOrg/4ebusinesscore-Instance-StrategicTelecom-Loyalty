@@ -1,0 +1,15 @@
+[
+
+  {
+    "Id": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf751",
+    "NameAr": "نسبة",
+    "NameEn": "Percentage",
+    "IsSeed": true
+  },
+  {
+    "Id": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf752",
+    "NameAr": "اخرى",
+    "NameEn": "Other",
+    "IsSeed" : true
+  }
+] 

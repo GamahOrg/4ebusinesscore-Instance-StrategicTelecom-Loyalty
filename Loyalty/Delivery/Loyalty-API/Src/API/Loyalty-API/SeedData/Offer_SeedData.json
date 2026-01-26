@@ -1,0 +1,27 @@
+[
+
+  {
+    "Id": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf774",
+
+    "NameAr": "اسم العرض بالعربية",
+    "NameEN": "Offer Name in English",
+    "DescriptionAr": "وصف العرض بالعربية",
+    "DescriptionAEn": "Offer description in English",
+    "Lk_DiscountTypeId": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf751",
+    "Lk_DiscountMethodId": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf762",
+    "DiscountLink": "https://www.example.com/discount",
+    "DiscountAmount": 10.0,
+    "SubCategoryId": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf772",
+    "CategoryId": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf771",
+    "StartDate": "2025-07-01T00:00:00",
+    "StartTime": "08:00:00",
+    "EndDate": "2025-07-31T00:00:00",
+    "EndTime": "23:59:00",
+    "ImagePth": "wwwroot/Default/Amazon.jpeg",
+    "Status": 1,
+    "Code": "SUMMER25",
+    "ConditionsAr": "الشروط والأحكام باللغة العربية",
+    "ConditionsEn": "Terms and conditions in English",
+    "ServiceProviderId": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf773"
+  }
+]

@@ -1,0 +1,24 @@
+[
+
+
+
+  {
+    "Id": "0507b4ad-cd15-4069-783b-08dd8887efdc",
+    "NameAr": "كود الخصم",
+    "NameEn": "Discount Code",
+    "IsSeed": true
+  },
+  {
+    "Id": "5605dfe0-37f6-4887-783c-08dd8887efdc",
+    "NameAr": "رابط الخصم",
+    "NameEn": "Discount Link",
+    "IsSeed": true
+  },
+  {
+    "Id": "a3b2e179-ec4c-42b0-9a6c-08dbe5ddf763",
+    "NameAr": "اخرى",
+    "NameEn": "Other",
+    "IsSeed": true
+  }
+
+] 
