@@ -1,11 +1,13 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Features.Lk_DiscountMethodFeature.Command.Post
 {
-    public class PostDiscountMethodCommand
+    public class PostDiscountMethodCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
+        public DiscountMethodDTO DTO { get; set; }
+        public PostDiscountMethodCommand(DiscountMethodDTO dto)
         {
-            Console.WriteLine("PostDiscountMethodCommand dummy execution.");
+            DTO = dto;
         }
     }
 }

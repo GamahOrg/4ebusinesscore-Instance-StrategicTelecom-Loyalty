@@ -1,11 +1,12 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Command.Post
 {
-    public class PostLK_OfferTypeCommand
+    public class PostLK_OfferTypeCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
+        public DiscountTypeDTO DTO { get; set; }
+        public PostLK_OfferTypeCommand(DiscountTypeDTO dto)
         {
-            Console.WriteLine("PostLK_OfferTypeCommand dummy execution.");
+            DTO = dto;
         }
+
     }
 }

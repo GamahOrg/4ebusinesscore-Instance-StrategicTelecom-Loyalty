@@ -1,11 +1,14 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Lk_DiscountMethodFeature.Command.Put
 {
-    public class PutDiscountMethodCommand
+    public class PutDiscountMethodCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
+        public Guid Id { get; set; }
+        public DiscountMethodDTO DTO { get; set; }
+        public PutDiscountMethodCommand(Guid id, DiscountMethodDTO dto)
         {
-            Console.WriteLine("PutDiscountMethodCommand dummy execution.");
+            Id = id;
+            DTO = dto;
         }
+
     }
 }

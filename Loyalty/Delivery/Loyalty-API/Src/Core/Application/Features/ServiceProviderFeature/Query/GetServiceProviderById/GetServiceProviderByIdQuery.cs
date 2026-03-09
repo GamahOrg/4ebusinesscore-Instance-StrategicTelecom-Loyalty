@@ -1,11 +1,12 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.ServiceProviderFeature.Query.GetServiceProviderById
 {
-    public class GetServiceProviderByIdQuery
+    public class GetServiceProviderByIdQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
+        public Guid Id { get; set; }
+        public GetServiceProviderByIdQuery(Guid id)
         {
-            Console.WriteLine("GetServiceProviderByIdQuery dummy execution.");
+            Id = id;
         }
     }
 }
+

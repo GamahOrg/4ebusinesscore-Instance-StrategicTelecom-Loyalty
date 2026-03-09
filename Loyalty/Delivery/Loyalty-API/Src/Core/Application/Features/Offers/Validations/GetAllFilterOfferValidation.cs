@@ -1,11 +1,14 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Offers.Validations
 {
-    public class GetAllFilterOfferValidation
+    public class GetAllFilterOfferValidation : AbstractValidator<GetAllOfferQuery>
     {
-        public void Execute()
+        private IStringLocalizer _stringLocalizer;
+
+
+        public GetAllFilterOfferValidation(IStringLocalizer stringLocalizer)
         {
-            Console.WriteLine("GetAllFilterOfferValidation dummy execution.");
+            _stringLocalizer = stringLocalizer;
+
         }
     }
 }

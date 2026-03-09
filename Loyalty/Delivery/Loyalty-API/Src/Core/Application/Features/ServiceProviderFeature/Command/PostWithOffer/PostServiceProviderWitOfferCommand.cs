@@ -1,11 +1,8 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.ServiceProviderFeature.Command.PostWithOffer
 {
-    public class PostServiceProviderWitOfferCommand
+    public class PostServiceProviderWitOfferCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("PostServiceProviderWitOfferCommand dummy execution.");
-        }
+
+        public ServiceProviderWithOfferDTO DTO { get; set; }
     }
 }

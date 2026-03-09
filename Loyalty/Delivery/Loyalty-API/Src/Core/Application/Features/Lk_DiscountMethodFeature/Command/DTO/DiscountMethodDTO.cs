@@ -1,11 +1,14 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Lk_DiscountMethodFeature.Command.DTO
 {
-    public class DiscountMethodDTO
+    public record DiscountMethodDTO
     {
-        public void Execute()
-        {
-            Console.WriteLine("DiscountMethodDTO dummy execution.");
-        }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public string NameAr { get; init; }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public string NameEn { get; init; }
     }
 }

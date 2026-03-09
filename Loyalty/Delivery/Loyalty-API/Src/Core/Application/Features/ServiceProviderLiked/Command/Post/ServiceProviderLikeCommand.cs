@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.ServiceProviderLiked.Command.Post
 {
-    public class ServiceProviderLikeCommand
+    public class ServiceProviderLikeCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("ServiceProviderLikeCommand dummy execution.");
-        }
+        public ServiceProviderLikeDTO DTO { get; set; } = new ServiceProviderLikeDTO();
     }
 }

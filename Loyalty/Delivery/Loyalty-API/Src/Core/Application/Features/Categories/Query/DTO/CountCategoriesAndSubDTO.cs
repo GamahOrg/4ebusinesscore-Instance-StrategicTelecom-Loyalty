@@ -1,11 +1,8 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Categories.Query.DTO
 {
     public class CountCategoriesAndSubDTO
     {
-        public void Execute()
-        {
-            Console.WriteLine("CountCategoriesAndSubDTO dummy execution.");
-        }
+        public int CountCategories { get; set; }
+        public int SubCountCategories { get; set; }
     }
 }

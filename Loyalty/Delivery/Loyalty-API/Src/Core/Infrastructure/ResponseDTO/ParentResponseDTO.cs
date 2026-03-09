@@ -1,6 +1,4 @@
 ﻿
-using Domain.Utilities.Enums;
-
 namespace DTO
 {
     public abstract class ParentResponseDTO

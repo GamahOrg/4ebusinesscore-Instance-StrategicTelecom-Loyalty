@@ -1,11 +1,6 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Lk_DiscountMethodFeature.Query.GetAll
 {
-    public class GetAllDiscountMethodQuery
+    public class GetAllDiscountMethodQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetAllDiscountMethodQuery dummy execution.");
-        }
     }
 }

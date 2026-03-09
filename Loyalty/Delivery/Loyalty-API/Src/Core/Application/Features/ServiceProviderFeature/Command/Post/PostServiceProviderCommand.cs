@@ -1,11 +1,9 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿using _4EPlatform.Application.Features.ServiceProviderFeature.Command.Post;
+
+namespace _4EPlatform.Application.Features.Command.Post
 {
-    public class PostServiceProviderCommand
+    public class PostServiceProviderCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("PostServiceProviderCommand dummy execution.");
-        }
+        public PostServiceProviderDTO DTO { get; set; }
     }
 }

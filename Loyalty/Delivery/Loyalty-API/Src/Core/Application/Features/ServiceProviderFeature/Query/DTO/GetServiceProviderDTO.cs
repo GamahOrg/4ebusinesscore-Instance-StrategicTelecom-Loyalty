@@ -1,11 +1,10 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.ServiceProviderFeature.Query.DTO
 {
     public class GetServiceProviderDTO
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetServiceProviderDTO dummy execution.");
-        }
+        public Guid Id { get; set; }
+        public string NameAr { get; set; }
+        public string NameEn { get; set; }
+        public string Image { get; set; }
     }
 }

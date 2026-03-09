@@ -1,11 +1,12 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Lk_DiscountMethodFeature.Command.Delete
 {
-    public class DeleteDiscountMethodCommand
+    public class DeleteDiscountMethodCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
+        public Guid Id { get; set; }
+        public DeleteDiscountMethodCommand(Guid id)
         {
-            Console.WriteLine("DeleteDiscountMethodCommand dummy execution.");
+            Id = id;
         }
     }
 }
+

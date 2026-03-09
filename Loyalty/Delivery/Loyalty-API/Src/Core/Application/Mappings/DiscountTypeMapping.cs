@@ -1,11 +1,13 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿using _4EPlatform.Application.Features.Lk_DiscountTypeFeature.Command;
+
+namespace _4EPlatform.Application.Mappings
 {
-    public class DiscountTypeMapping
+    public partial class MappingProfile
     {
-        public void Execute()
+        public void DiscountTypeMapping()
         {
-            Console.WriteLine("DiscountTypeMapping dummy execution.");
+            CreateMap<DiscountTypeDTO, Lk_DiscountType>();
+            CreateMap<Lk_DiscountType, GetDiscountTypeDTO>();
         }
     }
 }

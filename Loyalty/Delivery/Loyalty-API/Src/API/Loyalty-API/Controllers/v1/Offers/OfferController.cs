@@ -1,5 +1,7 @@
 ﻿
 
+using Domain.Utilities.Enums;
+
 namespace _4EPlatform.API.Controllers.v1.Offers
 {
     public class OfferController : BaseController

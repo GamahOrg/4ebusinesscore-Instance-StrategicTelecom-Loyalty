@@ -1,11 +1,35 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿using _4EPlatform.Application.CustomValidation;
+
+namespace _4EPlatform.Application.Features.ServiceProviderFeature.Command.Post
 {
     public class PostServiceProviderDTO
     {
-        public void Execute()
-        {
-            Console.WriteLine("PostServiceProviderDTO dummy execution.");
-        }
+
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public required string TitleAr { get; set; }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public required string TitleEn { get; set; }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public required string NameAr { get; set; }
+        [PreventInjectionHTML]
+        [PreventInjectionCSV]
+        [PreventInjectionScript]
+        public required string NameEn { get; set; }
+        public required string DescriptionAr { get; set; }
+        public required string DescriptionAEn { get; set; }
+        public required string Location { get; set; }
+        public required string Email { get; set; }
+        public required string Website { get; set; }
+        public required string Mobile { get; set; }
+        [PreventInjectionScriptFileAttribute]
+        public IFormFile Image { get; set; }
+
+        public virtual ICollection<IFormFile> ServiceProviderImages { get; set; } = new HashSet<IFormFile>();
     }
 }

@@ -1,11 +1,18 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Mappings
 {
-    public class MappingProfile
+    public partial class MappingProfile : Profile
     {
-        public void Execute()
+        public MappingProfile()
         {
-            Console.WriteLine("MappingProfile dummy execution.");
+            CategoryMapping();
+            OfferMapping();
+            ServiceProviderMapping();
+            DiscountMethodMapping();
+            DiscountTypeMapping();
+            SubCategoryMapping();
+            Lk_OfferLikeMapping();
         }
+
+
     }
 }

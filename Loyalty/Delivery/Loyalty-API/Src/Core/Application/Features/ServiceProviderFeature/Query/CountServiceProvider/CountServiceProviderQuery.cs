@@ -1,11 +1,6 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.ServiceProviderFeature.Query.CountServiceProvider
 {
-    public class CountServiceProviderQuery
+    public class CountServiceProviderQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("CountServiceProviderQuery dummy execution.");
-        }
     }
 }

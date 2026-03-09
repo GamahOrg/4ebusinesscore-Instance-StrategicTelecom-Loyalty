@@ -1,11 +1,16 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿using _4EPlatform.Application.Features.Command.DTO;
+
+namespace _4EPlatform.Application.Mappings
 {
-    public class LKOfferType
+
+
+    public partial class MappingProfile
     {
-        public void Execute()
+        public void Lk_OfferLikeMapping()
         {
-            Console.WriteLine("LKOfferType dummy execution.");
+            CreateMap<LK_OfferTypeDTO, LK_OfferType>();
+            CreateMap<LK_OfferType, LK_OfferTypeDTO>();
         }
     }
 }
+

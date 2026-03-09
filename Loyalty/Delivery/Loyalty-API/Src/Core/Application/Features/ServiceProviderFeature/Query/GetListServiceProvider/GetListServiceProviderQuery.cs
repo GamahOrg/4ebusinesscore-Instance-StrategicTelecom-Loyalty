@@ -1,11 +1,11 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿using Domain.Utilities.Enums;
+using DTO;
+using MediatR;
+
+namespace _4EPlatform.Application.Features.ServiceProviderFeature.Query.GetListServiceProvider
 {
-    public class GetListServiceProviderQuery
+    public class GetListServiceProviderQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetListServiceProviderQuery dummy execution.");
-        }
+        public Status? Status { get; set; }
     }
 }

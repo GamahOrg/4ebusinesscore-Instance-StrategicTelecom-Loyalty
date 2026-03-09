@@ -50,7 +50,7 @@ global using _4EPlatform_StrategicTelecom_EmployeeLoyalty.API.Controllers;
 global using _4EPlatform_StrategicTelecom_EmployeeLoyalty.API.Extension;
 global using _4EPlatform_StrategicTelecom_EmployeeLoyalty.API.MiddleWares;
 global using Asp.Versioning;
-global using Domain.Enums;
+global using Domain.Utilities.Enums;
 global using DTO;
 global using Elastic.Serilog.Sinks;
 global using FluentValidation;

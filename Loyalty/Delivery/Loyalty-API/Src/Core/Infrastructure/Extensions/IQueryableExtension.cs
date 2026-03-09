@@ -1,6 +1,4 @@
-﻿using Domain.Utilities.Enums;
-
-namespace _4EPlatForm.Infrastructure.Extensions
+﻿namespace _4EPlatForm.Infrastructure.Extensions
 {
     public static class IQueryableExtension
     {

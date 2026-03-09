@@ -1,6 +1,4 @@
-﻿using Domain.Utilities.Enums;
-
-public class ServiceProvider : AuditEntity<Guid>
+﻿public class ServiceProvider : AuditEntity<Guid>
 {
     public string TitleAr { get; set; }
     public string TitleEn { get; set; }

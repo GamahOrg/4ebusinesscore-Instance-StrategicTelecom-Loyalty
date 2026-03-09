@@ -1,11 +1,8 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Command.DTO
 {
     public class LK_OfferTypeDTO
     {
-        public void Execute()
-        {
-            Console.WriteLine("LK_OfferTypeDTO dummy execution.");
-        }
+        public string NameAr { get; set; }
+        public string NameEn { get; set; }
     }
 }

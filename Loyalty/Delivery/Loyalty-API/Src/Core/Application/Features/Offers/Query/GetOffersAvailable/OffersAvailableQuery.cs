@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Offers.Query.GetOffersAvailable
 {
-    public class OffersAvailableQuery
+    public class OffersAvailableQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("OffersAvailableQuery dummy execution.");
-        }
+
     }
 }

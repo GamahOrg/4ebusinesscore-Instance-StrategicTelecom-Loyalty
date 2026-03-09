@@ -1,11 +1,11 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Offers.Query.GetById
 {
-    public class GetOfferByIdQuery
+    public class GetOfferByIdQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
+        public Guid Id { get; set; }
+        public GetOfferByIdQuery(Guid id)
         {
-            Console.WriteLine("GetOfferByIdQuery dummy execution.");
+            Id = id;
         }
     }
 }

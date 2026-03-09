@@ -1,11 +1,9 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Lk_OfferType.Query.DTO
 {
     public class GetLK_OfferTypeDTO
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetLK_OfferTypeDTO dummy execution.");
-        }
+        public Guid Id { get; set; }
+        public string NameAr { get; set; }
+        public string NameEn { get; set; }
     }
 }

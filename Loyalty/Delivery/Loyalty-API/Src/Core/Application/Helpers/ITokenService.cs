@@ -1,11 +1,9 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Helpers
 {
-    public class ITokenService
+    public interface ITokenService
     {
-        public void Execute()
-        {
-            Console.WriteLine("ITokenService dummy execution.");
-        }
+        Task<CallOptions> AcquireToken();
+
+
     }
 }

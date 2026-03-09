@@ -1,11 +1,6 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.ServiceProviderLiked.Query
 {
-    public class CountServiceProviderLikesQuery
+    public class CountServiceProviderLikesQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("CountServiceProviderLikesQuery dummy execution.");
-        }
     }
 }

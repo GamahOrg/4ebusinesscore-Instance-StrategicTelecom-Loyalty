@@ -1,11 +1,6 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Offers.Query.GetOffersActivelyMonthly
 {
-    public class OffersActivelyMonthlyQuery
+    public class OffersActivelyMonthlyQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("OffersActivelyMonthlyQuery dummy execution.");
-        }
     }
 }
