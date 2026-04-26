@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Categories.Query.CountCategoriesAndSub
 {
-    public class CountCategoriesAndSubQuery
+    public class CountCategoriesAndSubQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("CountCategoriesAndSubQuery dummy execution.");
-        }
+
     }
 }

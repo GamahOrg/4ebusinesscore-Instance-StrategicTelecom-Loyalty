@@ -1,7 +1,5 @@
 ﻿
 
-using Domain.Utilities.Enums;
-
 namespace _4EPlatform.Domain
 {
     public class BaseEntity<TKey>

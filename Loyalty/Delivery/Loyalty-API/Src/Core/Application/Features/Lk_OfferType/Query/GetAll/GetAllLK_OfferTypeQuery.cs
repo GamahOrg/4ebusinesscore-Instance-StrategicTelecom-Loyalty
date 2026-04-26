@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Lk_OfferType.Query.GetAll
 {
-    public class GetAllLK_OfferTypeQuery
+    public class GetAllLK_OfferTypeQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetAllLK_OfferTypeQuery dummy execution.");
-        }
+
     }
 }

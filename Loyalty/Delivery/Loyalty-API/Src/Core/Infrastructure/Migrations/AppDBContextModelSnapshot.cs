@@ -66,9 +66,6 @@ namespace _4EPlatform.Infrastructure.Migrations
                     b.Property<int>("State")
                         .HasColumnType("int");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
-
                     b.Property<Guid?>("UpdatedBy")
                         .HasColumnType("uniqueidentifier");
 
@@ -513,9 +510,6 @@ namespace _4EPlatform.Infrastructure.Migrations
                         .HasColumnType("rowversion");
 
                     b.Property<int>("State")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Status")
                         .HasColumnType("int");
 
                     b.Property<Guid?>("UpdatedBy")

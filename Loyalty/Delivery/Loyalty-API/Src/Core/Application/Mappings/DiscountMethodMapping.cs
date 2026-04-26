@@ -1,11 +1,11 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Mappings
 {
-    public class DiscountMethodMapping
+    public partial class MappingProfile
     {
-        public void Execute()
+        public void DiscountMethodMapping()
         {
-            Console.WriteLine("DiscountMethodMapping dummy execution.");
+            CreateMap<DiscountMethodDTO, Lk_DiscountMethod>();
+            CreateMap<Lk_DiscountMethod, GetDiscountMethodDTO>();
         }
     }
 }

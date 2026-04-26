@@ -1,11 +1,9 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Offers.Command.Delete
 {
-    public class DeleteOfferCommand
+    public class DeleteOfferCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("DeleteOfferCommand dummy execution.");
-        }
+        public Guid Id { get; set; }
+
     }
+
 }

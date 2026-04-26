@@ -1,4 +1,4 @@
-﻿using Domain.Enums;
+﻿using Domain.Utilities.Enums;
 using System.Text.Json;
 
 namespace _4EPlatform_StrategicTelecom_EmployeeLoyalty.API.MiddleWares

@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.ServiceProviderFeature.Command.Delete
 {
-    public class DeleteServiceProviderCommand
+    public class DeleteServiceProviderCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("DeleteServiceProviderCommand dummy execution.");
-        }
+        public Guid Id { get; set; }
     }
 }

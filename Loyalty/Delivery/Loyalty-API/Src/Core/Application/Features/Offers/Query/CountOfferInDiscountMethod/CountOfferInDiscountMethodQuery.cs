@@ -1,11 +1,6 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Offers.Query.CountOfferInDiscountMethod
 {
-    public class CountOfferInDiscountMethodQuery
+    public class CountOfferInDiscountMethodQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("CountOfferInDiscountMethodQuery dummy execution.");
-        }
     }
 }

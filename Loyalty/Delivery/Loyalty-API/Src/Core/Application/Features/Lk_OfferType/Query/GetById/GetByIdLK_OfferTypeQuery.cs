@@ -1,11 +1,12 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Lk_OfferType.Query.GetById
 {
-    public class GetByIdLK_OfferTypeQuery
+    public class GetByIdLK_OfferTypeQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
+        public Guid Id { get; set; }
+        public GetByIdLK_OfferTypeQuery(Guid id)
         {
-            Console.WriteLine("GetByIdLK_OfferTypeQuery dummy execution.");
+            Id = id;
         }
+
     }
 }

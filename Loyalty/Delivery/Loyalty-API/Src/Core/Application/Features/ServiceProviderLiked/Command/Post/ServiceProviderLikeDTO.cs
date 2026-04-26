@@ -1,11 +1,8 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.ServiceProviderLiked.Command.Post
 {
     public class ServiceProviderLikeDTO
     {
-        public void Execute()
-        {
-            Console.WriteLine("ServiceProviderLikeDTO dummy execution.");
-        }
+        public Guid ServiceProviderId { get; set; }
+        public bool IsLike { get; set; }
     }
 }

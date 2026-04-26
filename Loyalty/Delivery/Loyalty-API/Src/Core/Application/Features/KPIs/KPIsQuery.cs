@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.KPIs
 {
-    public class KPIsQuery
+    public class KPIsQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("KPIsQuery dummy execution.");
-        }
+
     }
 }

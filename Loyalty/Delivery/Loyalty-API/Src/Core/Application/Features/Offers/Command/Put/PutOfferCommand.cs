@@ -1,11 +1,10 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Offers.Command.Put
 {
-    public class PutOfferCommand
+    public class PutOfferCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("PutOfferCommand dummy execution.");
-        }
+        public Guid Id { get; set; }
+
+        public PutOfferDTO DTO { get; set; }
+
     }
 }

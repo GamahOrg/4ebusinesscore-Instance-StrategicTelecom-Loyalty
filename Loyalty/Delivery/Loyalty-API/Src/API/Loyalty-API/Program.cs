@@ -1,9 +1,7 @@
 
 using _4EPlatform.Application.Resources;
-using _4EPlatform.PermissionsGroupingChecker;
-using _4EPlatform.PremessionRegister;
-using _4EPlatform_Controlpanel_WorkSpace.GrpClientsConfig;
 using Microsoft.Extensions.Localization;
+using Rega.Qimah.PermessionGroup;
 using UploadHelper.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,11 +1,55 @@
-// Auto-generated dummy class
-namespace DummyNamespace
-{
-    public class GlobalUsing
-    {
-        public void Execute()
-        {
-            Console.WriteLine("GlobalUsing dummy execution.");
-        }
-    }
-}
+﻿global using _4EPlatform.Application.Features.Categories.Command.PostCategory;
+global using _4EPlatform.Application.Features.Categories.Command.PutCategory;
+global using _4EPlatform.Application.Features.Categories.Query.DTO;
+global using _4EPlatform.Application.Features.Categories.Validations;
+global using _4EPlatform.Application.Features.Command.DTO;
+global using _4EPlatform.Application.Features.Command.Post;
+global using _4EPlatform.Application.Features.Command.Put;
+global using _4EPlatform.Application.Features.Lk_DiscountMethodFeature.Command.DTO;
+global using _4EPlatform.Application.Features.Lk_DiscountMethodFeature.Command.Post;
+global using _4EPlatform.Application.Features.Lk_DiscountMethodFeature.Command.Put;
+global using _4EPlatform.Application.Features.Lk_DiscountMethodFeature.LK_DiscountMethodValidation;
+global using _4EPlatform.Application.Features.Lk_DiscountMethodFeature.Query.DTO;
+global using _4EPlatform.Application.Features.Lk_DiscountTypeFeature.Command;
+global using _4EPlatform.Application.Features.Lk_DiscountTypeFeature.Command.Post;
+global using _4EPlatform.Application.Features.Lk_DiscountTypeFeature.Command.Put;
+global using _4EPlatform.Application.Features.Lk_DiscountTypeFeature.LK_DiscountTypeValidation;
+global using _4EPlatform.Application.Features.Lk_DiscountTypeFeature.Query.DTO;
+global using _4EPlatform.Application.Features.Lk_OfferType.Command.Put;
+global using _4EPlatform.Application.Features.Lk_OfferType.Validation;
+global using _4EPlatform.Application.Features.Offers.Command.Post;
+global using _4EPlatform.Application.Features.Offers.Command.Put;
+global using _4EPlatform.Application.Features.Offers.Query.DTO;
+global using _4EPlatform.Application.Features.Offers.Query.GetAll;
+global using _4EPlatform.Application.Features.Offers.Validations;
+global using _4EPlatform.Application.Features.ServiceProviderFeature.Command.PostWithOffer;
+global using _4EPlatform.Application.Features.ServiceProviderFeature.Query.DTO;
+global using _4EPlatform.Application.Features.ServiceProviderFeature.Validations;
+global using _4EPlatform.Application.Features.SubCategories.Command.Post;
+global using _4EPlatform.Application.Features.SubCategories.Validations;
+global using _4EPlatform.Application.Helpers.GenericSort;
+global using _4EPlatform.Application.Helpers.GenericSort.Enums;
+global using _4EPlatform.Application.Resources;
+global using _4EPlatform.Domain.Models.Lookup;
+global using _4EPlatForm.Infrastructure.Extensions;
+global using _4EPlatForm.Infrastructure.Interface;
+global using _4EPlatForm.Infrastructure.UnitOfWork;
+global using AutoMapper;
+global using Challenges.Domain.CustomValidation;
+global using Diagnostics.Tracing.StackSources;
+global using Domain.Utilities.Enums;
+global using DTO;
+global using FluentValidation;
+global using Grpc.Core;
+global using Helpers.QueryableExtensions;
+global using MediatR;
+global using Microsoft.AspNetCore.Hosting;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Localization;
+global using System.Collections;
+global using System.Linq.Expressions;
+global using System.Reflection;
+global using System.Text.Json;
+global using UploadHelper.Helpers;
+global using Status = Domain.Utilities.Enums.Status;

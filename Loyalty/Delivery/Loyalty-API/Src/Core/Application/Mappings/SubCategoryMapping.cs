@@ -1,11 +1,10 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Mappings
 {
-    public class SubCategoryMapping
+    public partial class MappingProfile
     {
-        public void Execute()
+        public void SubCategoryMapping()
         {
-            Console.WriteLine("SubCategoryMapping dummy execution.");
+            CreateMap<PostSubCategoryDTO, SubCategory>();
         }
     }
 }

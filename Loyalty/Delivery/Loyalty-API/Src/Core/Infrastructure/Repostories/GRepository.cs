@@ -1,7 +1,5 @@
 ﻿
 
-using Domain.Utilities.Enums;
-
 namespace _4EPlatForm.Infrastructure.Repositories
 {
     public class GRepository<T> : IGRepository<T> where T : class

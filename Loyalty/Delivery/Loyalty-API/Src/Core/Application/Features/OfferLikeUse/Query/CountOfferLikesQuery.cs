@@ -1,11 +1,6 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.OfferLikeUse.Query
 {
-    public class CountOfferLikesQuery
+    public class CountOfferLikesQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("CountOfferLikesQuery dummy execution.");
-        }
     }
 }

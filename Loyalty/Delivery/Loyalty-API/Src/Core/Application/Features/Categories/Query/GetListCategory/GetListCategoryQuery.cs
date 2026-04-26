@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Categories.Query.GetListCategory
 {
-    public class GetListCategoryQuery
+    public class GetListCategoryQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetListCategoryQuery dummy execution.");
-        }
+        public Status? Status { get; set; }
     }
 }

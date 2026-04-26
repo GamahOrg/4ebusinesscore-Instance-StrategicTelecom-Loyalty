@@ -1,11 +1,6 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Offers.Query.AverageDiscountAmount
 {
-    public class CountAverageDiscountAmountQuery
+    public class CountAverageDiscountAmountQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("CountAverageDiscountAmountQuery dummy execution.");
-        }
     }
 }

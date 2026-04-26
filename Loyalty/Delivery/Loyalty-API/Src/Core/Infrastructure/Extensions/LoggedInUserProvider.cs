@@ -6,6 +6,8 @@ namespace _4EPlatForm.Infrastructure.Extensions
     {
         public static Guid GetLoggedInUserId(IHttpContextAccessor httpContextAccessor)
         {
+
+
             try
             {
                 var userIdClaim = httpContextAccessor.HttpContext.User.Claims
@@ -26,3 +28,4 @@ namespace _4EPlatForm.Infrastructure.Extensions
         }
     }
 }
+

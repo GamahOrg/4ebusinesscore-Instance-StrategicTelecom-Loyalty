@@ -1,11 +1,7 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Categories.Command.DeleteCategory
 {
-    public class DeleteCategoryCommand
+    public class DeleteCategoryCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
-        {
-            Console.WriteLine("DeleteCategoryCommand dummy execution.");
-        }
+        public Guid Id { get; set; }
     }
 }

@@ -1,11 +1,10 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Lk_DiscountTypeFeature.Query.DTO
 {
     public class GetDiscountTypeDTO
     {
-        public void Execute()
-        {
-            Console.WriteLine("GetDiscountTypeDTO dummy execution.");
-        }
+        public Guid Id { get; set; }
+        public string NameAr { get; set; }
+        public string NameEn { get; set; }
+        public bool IsSeed { get; set; }
     }
 }

@@ -1,6 +1,4 @@
-﻿using Domain.Utilities.Enums;
-
-public class Offer : AuditEntity<Guid>
+﻿public class Offer : AuditEntity<Guid>
 {
     public string NameAr { get; set; }
     public string NameEN { get; set; }

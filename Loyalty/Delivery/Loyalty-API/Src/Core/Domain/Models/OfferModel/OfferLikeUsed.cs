@@ -1,6 +1,4 @@
-﻿using Domain.Utilities.Enums;
-
-public class OfferLikeUsed : AuditEntity<Guid>
+﻿public class OfferLikeUsed : AuditEntity<Guid>
 {
     public Guid OfferId { get; set; }
     public virtual Offer Offer { get; set; }

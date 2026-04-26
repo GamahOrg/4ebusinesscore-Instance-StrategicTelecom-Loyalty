@@ -1,11 +1,16 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿
+
+namespace _4EPlatform.Application.Features.Lk_OfferType.Command.Put
 {
-    public class PutLk_OfferTypeCommand
+    public class PutLk_OfferTypeCommand : IRequest<ResponseDTO>
     {
-        public void Execute()
+        public Guid Id { get; set; }
+        public LK_OfferTypeDTO DTO { get; set; }
+        public PutLk_OfferTypeCommand(Guid id, LK_OfferTypeDTO dto)
         {
-            Console.WriteLine("PutLk_OfferTypeCommand dummy execution.");
+            Id = id;
+            DTO = dto;
         }
+
     }
 }

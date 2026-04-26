@@ -1,11 +1,11 @@
-// Auto-generated dummy class
-namespace DummyNamespace
+﻿namespace _4EPlatform.Application.Features.Lk_DiscountMethodFeature.Query.GetById
 {
-    public class GetByIdDiscountMethodQuery
+    public class GetByIdDiscountMethodQuery : IRequest<ResponseDTO>
     {
-        public void Execute()
+        public Guid Id { get; set; }
+        public GetByIdDiscountMethodQuery(Guid id)
         {
-            Console.WriteLine("GetByIdDiscountMethodQuery dummy execution.");
+            Id = id;
         }
     }
 }
